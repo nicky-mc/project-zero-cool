@@ -4,23 +4,15 @@
   padding: 0;
 }
 body {
-  font-family: system-ui, -apple-system, sans-serif; /* Uses the font of your OS (clean & fast) */
-  line-height: 1.5; /* Makes text readable */
-  min-height: 100vh; /* Full screen height guaranteed */
-  background-color: #111; /* Dark mode by default (Hackers love dark mode) */
-  color: #eee; /* Light text */
-}
-:root {
-  --primary-color: #00ff41; /* "Matrix Green" - Change this later if you want */
-  --bg-color: #111;
-  --text-color: #eee;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
 }
 .container {
   max-width: 800px;
-  margin: 0 auto; /* Center everything */
-  padding: 2rem; /* Breathing room */
-}
-h1 {
-  color: var(--primary-color); /* Using our variable */
-  margin-bottom: 1rem;
+  margin: auto;
+  background: #02020200;
+  padding: 20px;  
 }
